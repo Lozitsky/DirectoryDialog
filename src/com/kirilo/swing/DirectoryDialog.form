@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.kirilo.swing.DirectoryDialog">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="372" height="405"/>
+    </constraints>
+    <properties>
+      <minimumSize width="214" height="142"/>
+      <preferredSize width="400" height="300"/>
+      <requestFocusEnabled value="true"/>
+      <verifyInputWhenFocusTarget value="true"/>
+    </properties>
+    <border type="empty">
+      <size top="5" left="5" bottom="5" right="5"/>
+    </border>
+    <children>
+      <component id="63256" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <labelFor value="f4c22"/>
+          <maximumSize width="70" height="16"/>
+          <minimumSize width="70" height="16"/>
+          <preferredSize width="70" height="16"/>
+          <text value="Choose Drive"/>
+        </properties>
+      </component>
+      <component id="f4c22" class="javax.swing.JComboBox" binding="chooseDriveComboBox">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="C:\"/>
+            <item value="D:\"/>
+            <item value="E:\"/>
+          </model>
+        </properties>
+      </component>
+      <component id="70acd" class="javax.swing.JButton" binding="okButton">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <actionCommand value="Ok"/>
+          <label value="Ok"/>
+          <text value="Ok"/>
+        </properties>
+      </component>
+      <component id="23995" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <labelFor value="756ad"/>
+          <maximumSize width="91" height="16"/>
+          <minimumSize width="91" height="16"/>
+          <preferredSize width="91" height="16"/>
+          <requestFocusEnabled value="true"/>
+          <text value="Choose Directory"/>
+        </properties>
+      </component>
+      <component id="bb771" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+      <scrollpane id="756ad">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <preferredSize width="59" height="360"/>
+          <requestFocusEnabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4c590" class="javax.swing.JTree" binding="chooseDirectoryTree">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="c58af" class="javax.swing.JButton" binding="createNewButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="5" bottom="10" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="100" height="24"/>
+          <minimumSize width="100" height="24"/>
+          <preferredSize width="100" height="24"/>
+          <text value="createNewButton"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="4b3e2" class="javax.swing.JButton" binding="projectRootButtonButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="5" bottom="0" right="0" weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="104" height="24"/>
+          <minimumSize width="104" height="24"/>
+          <preferredSize width="104" height="24"/>
+          <text value="projectRootButton"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
